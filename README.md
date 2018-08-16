@@ -10,7 +10,7 @@ Mapping of ctools to Backdrop core features:
 
 * Plugins -- tools to make it easy for modules to let other modules implement
   plugins from .inc files. **Backdrop uses info hooks and callback functions (or
-  callback classes) instead of plugins.**
+  callback classes) instead of plugins.** See [wiki for more help in converting CTools plugin](https://github.com/backdrop-contrib/ctools/wiki/Converting-CTools-plugins).
 
 * Exportables -- tools to make it easier for modules to have objects that live
   in database or live in code, such as 'default views'. **All configuration is
