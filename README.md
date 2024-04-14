@@ -14,7 +14,8 @@ Mapping of ctools to Backdrop core features:
 
 * Exportables -- tools to make it easier for modules to have objects that live
   in database or live in code, such as 'default views'. **All configuration is
-  exportable in Backdrop thanks to Configuration Management**
+  exportable in Backdrop thanks to Configuration Management** To build a listing
+  of your exportables, you might consider using [Preset API.](https://github.com/backdrop-contrib/preset).
 
 * AJAX responder -- tools to make it easier for the server to handle AJAX
   requests and tell the client what to do with them. **Improvements to the core
@@ -43,8 +44,7 @@ Mapping of ctools to Backdrop core features:
   like Dashboard. **Improvements to the core block system make these tools less
   necessary**
 
-* Form wizard -- an API to make multi-step forms much easier. **todo, if
-  necessary**
+* Form wizard -- an API to make multi-step forms much easier. **This now exists as the backdrop-contrib/form_wizard for Backdrop.**
 
 * CSS tools -- tools to cache and sanitize CSS easily to make user-input CSS
   safe. **todo, if necessary**
