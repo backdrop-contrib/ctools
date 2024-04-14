@@ -44,7 +44,7 @@ Mapping of ctools to Backdrop core features:
   like Dashboard. **Improvements to the core block system make these tools less
   necessary**
 
-* Form wizard -- an API to make multi-step forms much easier. **This now exists as the backdrop-contrib/form_wizard for Backdrop.**
+* Form wizard -- an API to make multi-step forms much easier. **This now exists as the [Form Wizard module](https://github.com/backdrop-contrib/form_wizard) for Backdrop.**
 
 * CSS tools -- tools to cache and sanitize CSS easily to make user-input CSS
   safe. **todo, if necessary**
